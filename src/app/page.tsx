@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main style={{ maxWidth: "1200px", margin: "auto", padding: "20px" }}>
       <h1 style={{ textAlign: "center", fontSize: "2rem", marginBottom: "20px" }}>
-        Unsplash Image Search
+        Unsplash Image Search ver 01
       </h1>
 
       <form onSubmit={handleSearch} style={{ display: "flex", justifyContent: "center", marginBottom: "30px" }}>

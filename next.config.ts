@@ -4,11 +4,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/imgSearch2025',
-  assetPrefix: "/imgSearch2025/",
+  basePath: '/imgSearcher2025',
+  assetPrefix: './', 
   eslint: {
-    ignoreDuringBuilds: true, // ✅ 빌드할 때 ESLint 무시
+    ignoreDuringBuilds: true,
   },
 };
-
 module.exports = nextConfig;
