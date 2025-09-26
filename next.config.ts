@@ -1,7 +1,14 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  basePath: '/imgSearch2025',
+  assetPrefix: "/imgSearch2025/",
+  eslint: {
+    ignoreDuringBuilds: true, // ✅ 빌드할 때 ESLint 무시
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
